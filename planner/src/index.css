@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar h2 {
+  color: blueviolet;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar .links a {
+  margin-left: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 6px;
+  color: rgb(57, 154, 215);
+  transition: all 0.3s ease;
+}
+
+.navbar .links a:hover {
+  background-color: #121212;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: blueviolet;
+}
+
+/* Active state when link is clicked */
+.navbar .links a.active {
+  background-color: #121212;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: blueviolet;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+.preview{
+  max-width: 700px;
+  padding: 10px 16px;
+  margin: 40px auto;
+  text-align: left;
+  border-bottom: solid #f2f2f2;
+  }
+  
+  .preview:hover{
+  box-shadow: 4px 3px 10px rgba(0,0,0,0.1);
+  }
+  
+  .preview h5{
+  color: blueviolet;
+  margin-bottom:6px;
+  }
+  
+  .preview a{
+  text-decoration: none !important;
+  }
+
+  .container {
+    text-align: center;
+  }

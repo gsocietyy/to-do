@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "f396",
+      "task": "Studying",
+      "date": "2025-01-26",
+      "description": "Study about Javascript",
+      "priority": "high",
+      "completed": true
+    },
+    {
+      "id": "b534",
+      "task": "Gaming",
+      "date": "2025-01-26",
+      "description": "Game call of duty",
+      "priority": "medium",
+      "completed": true
+    },
+    {
+      "id": "bd5c",
+      "task": "Buy groceries",
+      "date": "2025-01-26",
+      "description": "Buy Oranges ,Apples,Bananas,Pineapple,Watermelon",
+      "priority": "low",
+      "completed": false
+    }
+  ]
+}
